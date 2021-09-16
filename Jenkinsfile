@@ -1,5 +1,5 @@
 node {
-	def application = "javaapp"
+	def application = "mysimplapp"
 	def dockerhubaccountid = "chaitugonam"
 	stage('Clone repository') {
 		checkout scm
